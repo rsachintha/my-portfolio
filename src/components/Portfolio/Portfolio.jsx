@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import css from "./Portfolio.module.scss";
 import { fadeIn, staggerChildren, textVariant } from "../../utils/motion";
+
 const Portfolio = () => {
 	return (
 		<motion.section
@@ -21,7 +22,7 @@ const Portfolio = () => {
 					<div>
 						<span className="primaryText">My Latest Works</span>
 						<p style={{ marginTop: "10px" }}>
-							Perfect solution for digital experience
+							Let's create what is in your mind a reality
 						</p>
 					</div>
 					<span className="secondaryText">
@@ -35,11 +36,13 @@ const Portfolio = () => {
 						src="./showCase1.png"
 						alt="project"
 					/>
+
 					<motion.img
 						variants={fadeIn("up", "tween", 0.7, 0.6)}
 						src="./showCase2.png"
 						alt="project"
 					/>
+
 					<motion.img
 						variants={fadeIn("up", "tween", 0.9, 0.6)}
 						src="./showCase3.png"
