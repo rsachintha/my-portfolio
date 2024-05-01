@@ -107,12 +107,12 @@
 
 .secondaryText {
 	@media (max-width: $sm) {
-		font-size: 1.1rem;
-		line-height: 40px;
+		font-size: 1rem;
+		line-height: 1.5rem;
 	}
-	line-height: 50px;
-	font-size: 1.3rem;
-	font-weight: 500;
+	line-height: 1.5rem;
+	font-size: 1rem;
+	font-weight: 400;
 }
 .anchor {
 	display: block;

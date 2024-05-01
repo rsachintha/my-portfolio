@@ -59,6 +59,12 @@ const Experience = () => {
 								style={{ background: "#0047AB" }}
 							></div>
 						</div>
+						<div>
+							<div
+								className={css.circle}
+								style={{ background: "#0047AB" }}
+							></div>
+						</div>
 					</motion.div>
 				</div>
 			</div>

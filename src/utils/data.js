@@ -1,24 +1,36 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
+import { TbBrandFigma } from "react-icons/tb";
 
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 10,
+    name: "Web Applications",
+    projects: "20+",
     icon: HiOutlineDesktopComputer,
     bg: "#0047AB",
   },
   {
-    name: "Mobile App Design",
+    name: "Mobile Applications",
     projects: 4,
     icon: CiMobile1,
+    bg: "#0047AB",
+  },
+  {
+    name: "Web and Mobile Apps Design",
+    projects: 10,
+    icon: TbBrandFigma,
     bg: "#0047AB",
   }
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, I use process design to create digital products. Besides that also help their business.",
-  "I use process design to create digital products. Besides that also help their business",
+  "I am a highly skilled software engineer with a focus on creating exceptional user experiences through intuitive and visually appealing interfaces. With expertise in a variety of technologies including Next.js, React.js, WordPress, GSAP, and Nest.js, [Your Name] has a proven track record of delivering high-quality solutions for complex projects.",
+
+  "My proficiency in UI/UX design and engineering ensures that every project not only meets but exceeds user expectations. Leveraging cutting-edge tools and frameworks, And crafts seamless user interfaces that prioritize usability and engagement. Whether it's developing interactive web applications, optimizing WordPress websites for performance and aesthetics, or integrating animations with GSAP for enhanced user interaction, I consistently delivers results that elevate the user experience.",
+
+  "With a deep understanding of frontend and backend development, I am capable of seamlessly integrating design elements with robust functionality.Whether working independently or collaboratively within a team, I can bring creativity, technical expertise, and a user - centric approach to every project.",
+
+  "Overall, I think I will be a valuable asset to any organization seeking to create innovative digital experiences that resonate with users and drive business success."
 ];
 
 export const workExp = [
@@ -35,6 +47,13 @@ export const workExp = [
     role: "Intern - Full-Stack Engineer",
     detail:
       "As an Intern Full-Stack Engineer, I worked in CodeTech Lk and while i was working at this company i was participated in a team where we developed two blockchain based betting games and a bitcoin trading bot as well",
+  },
+  {
+    place: "LAYOUTindex Ltd",
+    tenure: "2023 - Present",
+    role: "Associate UI/UX Engineer",
+    detail:
+      "As an Associate UI/UX Engineer, I collaborated in building and maintaining websites for clients from diverse countries,encountering various challenging aspects throughout the software development cycle then tested and ensured the quality of the built product in accordance with software quality standards",
   }
 ];
 
